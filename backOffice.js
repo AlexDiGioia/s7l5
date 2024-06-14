@@ -91,6 +91,13 @@ const deleteProduct = () => {
   }
 };
 
+function resetForm() {
+  const hasConfirmed = confirm("vuoi resettare il Form?");
+  if (hasConfirmed) {
+    const form = document.querySelector("form").reset();
+  }
+}
+
 window.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("form");
 
