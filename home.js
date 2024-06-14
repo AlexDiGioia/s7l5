@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", function () {
             }">${prod.price ? prod.price + "€" : "gratis"}</span> 
         </div>
         <a href="./details.html?productId=${prod._id}">
-            <button type="button" class="btn btn-warning rounded-pill" >VEDI DETTAGLIaaaaaaaaaa</button>
+            <button type="button" class="btn btn-warning rounded-pill" >VEDI DETTAGLI</button>
         </a>
         `;
     
